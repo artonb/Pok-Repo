@@ -11,7 +11,6 @@ namespace PokeRepo.Database
         {
             Client = new();
             //Lägg till en basadress till klienten, eftersom att alla calls kommer gå till den sidan.
-            //Nu kan jag skriva gör ett call till Users så tar den basadressen + /Users
             Client.BaseAddress = new Uri("https://pokeapi.co/api/v2/pokemon/");
         }
 
