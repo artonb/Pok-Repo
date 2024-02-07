@@ -2,6 +2,7 @@
 {
     public class Root
     {
+        //public List<PokemonDbModel> Pokemons { get; set; }
         public int Id { get; set; }
         public string Name { get; set; }
         // Forms list
