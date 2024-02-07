@@ -6,6 +6,7 @@ namespace PokeRepo.Pages
     public class IndexModel : PageModel
     {
         public List<string> PokemonNames { get; set; }
+        // Kommentar
         public string? ErrorMessage { get; set; }
         public void OnGet()
         {
