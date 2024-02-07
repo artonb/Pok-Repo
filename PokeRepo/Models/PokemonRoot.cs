@@ -1,6 +1,6 @@
 ﻿namespace PokeRepo.Models
 {
-    public class PokemonRoot
+    public class PokemonDbModel
     {
         public int Id { get; set; }
         public string Name { get; set; }    
